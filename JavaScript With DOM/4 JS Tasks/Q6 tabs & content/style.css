@@ -1,0 +1,20 @@
+#tabs{
+    display: flex;
+    border: 1px solid black;
+    padding: 1% 25%;
+    justify-content: start;
+    gap: 5vw;
+}
+
+#tabs div{
+    padding: 1%;
+    background-color: rgb(229, 229, 236);
+    font-weight: bold;
+}
+
+#texts{
+    display: none;
+    width: 50%;
+    margin-top: 5vh;
+    font-size: 14px;
+}

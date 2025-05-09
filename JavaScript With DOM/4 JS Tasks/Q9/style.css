@@ -1,0 +1,42 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    height: 3600px;
+}
+
+#capsule{
+    height: 5px;
+    width: 100%;
+    border: 1px solid #dadada;
+    position: fixed;
+    top: 100px;
+    
+
+}
+
+#capsule .scroll{
+    width: 0px;
+    height: 100%;
+    background-color: rgb(89, 229, 89);
+}
+
+#container{
+    margin-top: 100px;
+    padding: 30px;
+}
+
+
+#textarea{
+    padding: 20px;
+    height: 130px;
+    width: 400px;
+    border: 1px solid #dadada;
+    outline-color: royalblue;
+    resize: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+
